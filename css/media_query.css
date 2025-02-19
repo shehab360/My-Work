@@ -1,0 +1,276 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+.Es-100
+{
+width: 100%;
+}
+.Es-95
+{
+width: 95%;
+}
+.Es-70
+{
+width: 70%;
+}
+.Es-50
+{
+width: 50%;
+}
+.Es-30
+{   
+width: 30%;
+}
+.roew 
+{
+  flex-direction: column;
+  row-gap: 0rem;
+}
+.row .col {
+    padding-bottom: 6rem !important;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .sm-100
+    {
+    width: 100%;
+    }
+    .sm-95
+    {
+    width: 95%;
+    }
+    .sm-90
+    {
+    width: 90%;
+    }
+    .sm-85
+    {
+    width: 85%;
+    }
+    .sm-70
+    {
+    width: 70%;
+    }
+    .sm-77
+    {
+    width: 77%;
+    }
+    .sm-50
+    {
+    width:50% !important;
+    }
+    .sm-45
+    {
+    width:45%;
+    }
+    .sm-60
+    {
+    width:60%;
+    }
+    .sm-30
+    {
+    width: 30%;
+    } 
+   
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px)
+ {
+    .md-100
+    {
+    width: 100%;
+    }
+    .md-95
+    {
+    width: 95%;
+    }
+    .md-90
+    {
+    width: 90%;
+    }
+    .md-70
+    {
+    width: 70%;
+    }
+    .md-85
+    {
+    width: 85%;
+    }
+    .md-50
+    {
+    width: 50%;
+    }
+    .md-44
+    {
+    width: 44%;
+    }
+    .md-30
+    {
+    width: 30%;
+    }
+    .about>.container>.row
+    {
+    flex-direction: column;
+    }
+    .row-one,
+    .row-two
+    {
+    width: 100% !important;
+    }
+    article 
+{
+  height: 150vh;
+}
+.roew 
+{
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.row-c
+{
+flex-direction: column;
+}
+  .col
+  {
+    width: 100%;
+  }
+  .row
+  {
+    flex-direction: column;
+  }
+  .col
+  {
+  width: 100% !important;
+  }
+  .mesage
+  {
+    height: 200vh;
+  }
+  .btn {
+
+    margin: auto;
+ 
+}
+.row .col {
+  padding-bottom: 4rem !important;
+}
+ }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px)
+ {
+    .lg-100
+    {
+    width: 100%;
+    }
+    .mode-class .dark
+    {
+    margin-left: 95%;
+    }
+    .lg-95
+    {
+    width: 95%;
+    }
+    .lg-90
+    {
+    width: 90%;
+    }
+    .lg-80
+    {
+    width: 80%;
+    }
+    .lg-65
+    {
+    width: 65% !important;
+    }
+    .lg-50
+    {
+    width: 50%;
+    }
+    .lg-45
+    {
+    width: 45%;
+    }
+    .lg-40
+    {
+    width: 40%;
+    }
+    .lg-33
+    {
+    width: 33%;
+    }
+    .lg-30
+    {
+    width: 30%;
+    }
+    .navbar-nav
+    {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding-left: 1rem;
+    }
+    .dropdown-toggle::after {
+      right: 15px;
+      position: absolute; 
+
+    }
+    
+    .navbar-nav .nav-link
+    {
+    color: #818181 !important;
+    }
+    .menu  
+    {
+    display: none !important;
+    transition: 2s all;
+    }
+    .nav-item:hover .menu
+    {
+    display: block !important;
+    }
+    .ddDown
+    {
+      width: 100%;
+      right: 0 !important;
+      z-index:33 !important ;
+   
+    }
+ }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px)
+
+  
+    {
+    width: 100%;
+    }
+    .ex-90
+    {
+    width: 90%;
+    }
+    .ex-80
+    {
+    width: 80%;
+    }
+    .ex-70
+    {
+    width: 70%;
+    }
+    .ex-50
+    {
+    width: 50% !important;
+    }
+    .ex-35
+    {
+    width: 35%;
+    }
+    .ex-12
+    {
+    width: 12%;
+    }
+  
